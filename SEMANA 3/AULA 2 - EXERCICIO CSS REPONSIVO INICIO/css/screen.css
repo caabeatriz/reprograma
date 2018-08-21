@@ -1,0 +1,32 @@
+@media screen (max-width: 667px) and (min-width: 375px){
+    
+    .algo{
+        display: inline-block;
+        margin-left: 600px;   
+    }
+.navmae{
+
+    display: none;
+    
+}
+
+
+.perfilautor{
+
+    display: none;
+}
+
+.conteudo_todo{
+    
+    margin-left: 10px;
+    text-align: center;
+    background-color: red;
+
+}
+
+.p{
+    font-size: 5px;
+    background-color: blanchedalmond;
+}
+
+}

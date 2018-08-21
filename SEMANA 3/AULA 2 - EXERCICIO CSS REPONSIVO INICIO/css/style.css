@@ -1,0 +1,214 @@
+body{
+background-color:white;
+display: inline-block;
+
+font-family:'Open sans', Arial, Helvetica, sans-serif;
+}
+
+/* teste */
+.algo{
+    display: none;
+}
+ 
+
+.navmae{
+
+    position: fixed;
+    width: 100%;
+  
+    background-color: white;
+    box-shadow: 0 1px 1px;
+}
+
+
+
+.navegacao{
+display: inline-block;
+margin-left: 300px;
+}
+
+
+
+
+.logo{
+    display: inline-block;
+    margin-top: 38px;
+    
+}
+.navegacao li{
+
+    display: inline-block;
+    padding: 10px;
+    margin:2px;
+    text-align: right;
+    margin-left: 80px;
+    
+}
+.navegacao ul{
+
+top:-20px;
+left: 820px;
+margin-top: 20px;
+}
+.listas{
+    display: inline-block;
+ 
+}
+
+.navegacao a{
+    color: black;
+    text-decoration: none;
+}
+
+.navegacao a:hover{
+
+    color: purple;
+    text-decoration: underline;
+}
+/* perfil do autor */
+.perfilautor{
+    margin-right: 40px;
+    border: 2px solid rgb(223, 220, 220);
+    display:inline-block;
+    width: 200px;
+    height: 430px;
+    text-align: center;
+    margin-top: 0;
+    float: left;
+    margin: 10px 40px ; 
+
+}
+
+
+
+
+/*Conteúdo */
+    
+main{
+display: inline-block;
+ width: 700px;
+ height: 50px;
+ text-align: left;
+}
+
+
+h4{
+
+    color: purple;
+    text-align: center;
+    
+    
+}
+
+h2{
+
+    font-size: 16px;
+    font-style: bold;
+}
+h3{
+
+    font-size: 14px;
+    color: #4A4A4A;
+}
+header{
+ font-style: bold;
+ font-size: 36px;
+}
+
+article{
+
+    font-size: 24px;
+}
+
+.imagem_mulheres{
+
+    margin-top:20px;
+}
+ul{
+
+    list-style: none;
+}
+
+.conteudo_todo{
+   margin-left: 150px;
+    margin-top:100px;
+}
+
+/*AQUI  É A MEDIA QUEER O LAYOULT DO AUTOR VAI SUMIR */
+/* @media (max-width: 700px){
+
+    .conteudo_todo {
+     display: none; }
+} */
+
+
+.Rodape{
+  
+    margin: 20px auto;
+    padding: 5px;
+    bottom: 10px;
+}
+
+
+     
+
+    
+@media  (max-width: 767px) {
+    
+    .algo{
+        display: inline-block;
+        
+    }
+.navmae{
+
+    display: none;
+    
+}
+
+h4{
+    background-color: yellow;
+     width: 100%;
+     margin-left: 50%;
+     margin-top: 2%;
+}
+
+.perfilautor{
+
+    display: none;
+}
+
+.conteudo_todo{
+    margin-top:2px;
+    margin-left: 10px;
+    text-align: center;
+    width: 30%; 
+    
+}
+
+.imagem_mulheres{
+    
+    width:65%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+header{
+    font-size:35pt;
+    width: 70%;
+}
+
+main{
+    height: 2px;
+    text-align:none;
+
+}
+
+p{
+    width: 65%;
+    font-size: 15pt;
+ 
+}
+
+}
+}
+
