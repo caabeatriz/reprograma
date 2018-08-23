@@ -1,0 +1,76 @@
+*{
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0 0 0 0; /* Tira as margens para não aparecer no header */
+  
+
+}
+header{
+background-color:blue; 
+display: flex; /*  Para a caixa ser quebrada em varios blocos lado a lado */     
+justify-content: flex-end; /* Para o  texto ir em alinhamento a direita */ 
+margin-left: 0 auto;    
+}
+ 
+
+li  /* Quebra da lista para ficar um do lado do outro */     {
+    display:inline-block;  
+}
+
+section {
+    height: 150%;
+    background-color: blueviolet;
+}
+
+.teste{
+    
+    background-image: url("../img/foto-banner.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    text-align: center;
+    height: 500px;
+ 
+}
+
+.Master_Titulo{
+    font-family: 'Varela', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+   
+   font-size: 80px;
+}
+
+/* SEÇÃO DO SEGUNDO QUADRO SELEÇÃO */
+.siberia
+{
+    display:flex;
+
+}
+
+
+.img_siberia{
+    width: 50%;
+}
+
+.segundo_quadro{
+    background-color:yellow;
+}
+
+/* SEÇÃO DO TERCEIRO QUADRO SELEÇÃO */
+.terceiro_quadro{
+  background-color: red;
+}
+
+.img_antartida{
+    width: 50%;
+    height: 50%;
+}
+.img_groelandia{
+    width: 40%;
+    height: 30%;
+}
+
+.groenlandia{
+    display: flex;
+}
