@@ -1,0 +1,313 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+}
+
+body {
+  font-family: Nunito;
+  font-size: 16px;
+  background-color: #f8f9fa;
+  left: 0;
+  right: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.transition {
+  transition: all 1s;
+}
+
+
+
+/* NAVEGAÇÃO DO SITE */
+.nav {
+  background: #96B6CA;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 85px;
+}
+
+nav__link {
+  display: none;
+}
+
+.nav__link {
+  color: #fff;
+
+}
+.nav__mobile {
+  display: none;
+} 
+
+
+ .nav__link:hover {
+  color: rgba(255, 255, 255, .75);
+} 
+
+/* .nav__mobile {
+  display: none;
+} */
+
+
+  
+
+.banner {
+  background: url("../img/foto-banner.jpg");
+  background-size: cover;
+  margin-top: 85px;
+  text-align: center;
+  height: 100vh;
+ 
+}
+
+
+.banner__title {
+  font-size: 105px;
+  color: rgba(255, 255, 255, .9);
+  text-transform: uppercase;
+  font-family: 'Varela Round';
+  font-weight: 100;
+  padding-top: 80px;
+  letter-spacing: 8px;
+}
+
+.banner__subtitle {
+  color: rgba(255, 255, 255, .7);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.banner__btn {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.btn--primary {
+  background-color: #829dad;
+}
+
+.btn--primary:hover {
+  background-color: #36b0e0;
+}
+
+/* SEGUNDA PARTE DO HTML */
+
+
+.rodape{
+  height: 400px;
+}
+.container_footer{
+background-color: rgba(22, 22, 22, .8);
+text-align: center;
+height: 60%;
+padding: 5vw;
+letter-spacing: 0.0625em;
+}
+
+.title_footer{
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  
+}
+.subtitle_footer{
+color: #212529;
+
+}
+
+/* TERCEIRA PARTE DO HTML */
+
+.img_siberia{
+  width: 60%;
+  height: auto;
+}
+.container_siberia{
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.container_titlesiberia{
+  margin-top: 20px;
+}
+
+/* QUARTA PARTE DO HTML */
+
+.secao_groenlandia{
+  width: 90%;
+   display: flex;
+}
+
+.secao_groenlandia img{
+  width: 50%;
+  height: 50%;
+}
+.title_groenlandia{
+  color: #fff;
+
+}
+.container_titlegroenlandia
+{  
+  padding: 10% 3%;
+  background-color: #212529;
+}
+
+
+.all_textgroenlandia
+{
+  text-align: left;
+}
+
+/* QUINTA PARTE DO HTML */
+
+.secao_antartida{
+  width: 90%;
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+.secao_antartida img{
+  width: 50%;
+  height: 50%;
+}
+.title_antartida{
+  color: #fff;
+
+}
+.container_titleantartida
+{  
+  padding: 10% 3%;
+  background-color: #212529;
+}
+
+
+.all_textantartida
+{
+  text-align: left;
+}
+
+/* MEDIA QUEERS  */
+
+@media (max-width: 420px){
+  .nav__mobile {
+    display: inline;
+    margin-left: 380px;
+  }
+  .nav__menu{
+    display: block;
+    
+  }
+  
+  .nav{
+    background-color: #fff;
+  
+  }
+  
+  
+
+  .nav__link{
+    display: none;
+  }
+  
+  .container_footer{
+   height: 90%;
+
+ } 
+                         
+.subtitle_footer{
+  margin-top: 10px;
+}
+
+.banner__title {
+  font-size: 75px;
+
+}
+
+.banner__subtitle{
+  font-size:18px;
+}
+
+.title_footer{
+font-size: 6vh;
+}
+
+.container_siberia{
+  display: block;
+  margin: 60px 12px 50px 12px;
+}
+
+.img_siberia{
+  width: 100%;
+}
+
+.title_siberia, .subtitle_siberia{
+  text-align: center;
+  
+}
+
+.secao_groenlandia img{
+  width: 100%;
+  margin-bottom: -6px;
+}
+
+.secao_groenlandia{
+  display: block;
+  margin-top: -2px;
+  
+}
+
+.all_textgroenlandia{
+  text-align: center;
+}
+
+
+
+.secao_antartida img{
+  width: 100%;
+  margin-bottom: -6px;
+  margin-top: 50px;
+}
+
+.secao_antartida{
+  display: block;
+  margin-top: -2px;
+  
+}
+
+.all_textantartida{
+  text-align: center;
+}
+
+}
