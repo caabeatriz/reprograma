@@ -1,0 +1,23 @@
+nav{
+    display:flex;
+    background-color:#674582;
+    width: 100rem;
+    
+}
+
+.nav_icons{
+    display: flex; 
+}
+
+.lista_nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 85px;
+}
+
+.lista_nav{
+    list-style:none;
+    justify-content: space-around;
+   
+}
