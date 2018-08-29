@@ -18,14 +18,13 @@ nav{
     
 }
 
+
 .nav_icons{
-    display: flex; 
+    display: none; 
 }
 
 .lista_nav{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    display: none;
 
 }
 
@@ -110,7 +109,7 @@ h6{
 }
 .imagem_integrantes img{
     width: 300px;
-    background-color: purple;
+    background-color:#674582;
     border-radius: 30px;
   
 }
@@ -186,6 +185,11 @@ footer{
    header{
     height: 71%;
    }
+/* .navegacao{
+    align-items: center;
+    border: 10px solid;
+    width: 90%;
+} */
     .header_titulo{
         font-size: 36px;
         width: 59%;
@@ -197,6 +201,42 @@ footer{
         bottom: 89px;
     }
 
+    nav{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+     }
+         .img_menunav{
+         display: none;
+
+         }
+
+     .nav_icons{
+     display: inline;
+  
+      }
+
+
+    .lista_nav{
+        display: inline-block;
+        
+    }
+
+    .lista_nav a{
+        color: #FFFFFF;
+        text-decoration-line: none;
+        font-size: 18px;
+
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        width: 413px;
+        text-transform: uppercase;
+
+    }
+    
     .header_subtitulo{
         font-size: 24px;
         left: 183px;
@@ -210,13 +250,23 @@ footer{
     font-size: 16px;
 }
 
-.conteudo_integrantes{
+
+.ctn{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: unset;
+    justify-content: center;
+    text-align: center;
 }
 
-imagem_integrantes{
-    background-size: 49%;
+
+.imagem_integrantes{
+    width: 400px;
+}
+
+.imagem_integrantes img {
+      width:100px;
+    flex-direction: column;
 }
 
 }
