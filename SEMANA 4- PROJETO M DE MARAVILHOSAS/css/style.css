@@ -93,12 +93,6 @@ h6{
     margin-top: 37px;
     text-align: center;
 }
-/* .img_integrantes{
-    background-color: #63458A;
-    padding: 10px;
-    border-radius: 56px;
-    width: 400px;
-} */
 
 
 .imagem_integrantes {
@@ -108,11 +102,100 @@ h6{
   
 }
 .imagem_integrantes img{
-    width: 300px;
+     width: 300px;
     background-color:#674582;
-    border-radius: 30px;
-  
+    border-radius: 30px;  
 }
+
+
+/* PERFIL JOANNA */
+
+.header_joanna{
+    background-image: url(../img/image-joanna.jpg);
+    position: relative;
+   background-size: cover;
+   height: 33vh;
+   display: flex;
+    justify-content: center;
+}
+.header_titulojoanna{
+
+    font-weight: bold;
+    position: absolute;
+    font-size: 76px;
+    color: #FFFFFF;
+
+    bottom: 49px;
+    background-color: rgba(141, 31, 188, 0.3);
+    text-transform: uppercase;
+}
+.conteudo_joanna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo_joanna{
+    text-align: center;
+}
+.perfil_joanna {
+    width: 300px;
+}
+
+.titulo_joanna,.titulo_historia-Joanna{
+     font-weight: bold;
+     color: #63458A;
+     text-align: center; 
+     font-style: bold;
+     text-transform: uppercase;
+
+}
+.citacao_navegador{
+    display: none;
+}
+.citacao_joanna {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #63458A;
+}
+
+p{
+    color:#674582;
+}
+.resumo_joanna{
+    margin: 10px;
+    padding: 10px;
+    width: 878px;
+}
+
+.historia_joanna{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.historia_joanna img{
+    width: 769px;
+    margin: 30px;
+
+}
+/* PERFIL JOANNA */
+
+
+
+
+
+
+
+
 
 footer{
     background-color: #323534;
@@ -185,11 +268,7 @@ footer{
    header{
     height: 71%;
    }
-/* .navegacao{
-    align-items: center;
-    border: 10px solid;
-    width: 90%;
-} */
+
     .header_titulo{
         font-size: 36px;
         width: 59%;
@@ -200,7 +279,8 @@ footer{
         left: 208px;
         bottom: 89px;
     }
-
+ 
+    
     nav{
          display: flex;
          justify-content: space-around;
@@ -269,5 +349,97 @@ footer{
     flex-direction: column;
 }
 
+/* 
+RESOLUÇÃO PÁGINA JOANNA */
+
+
+.header_joanna{
+    height: 89%;
 }
+
+.conteudo_joanna{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container{
+    width: 70%;
+}
+
+.titulo_joanna{
+    margin: 40px;
+}
+.alinhamento_joanna{
+    display: flex;
+}
+
+.perfil_joanna{
+    height: 40vh;
+
+}
+
+.resumo_joanna{
+    font-size: 2.1vw;
+    margin-left: 40px;
+}
+
+.citacao_sumirnaveagdor{
+    display: none;
+}
+
+.citacao_navegador{
+display: flex;
+}
+
+
+.citacao_joanna{
+    border: 3px solid #E5E5E5;
+    margin-top: 45px;
+    margin-left: 0;
+}
+.historia_joanna{
+    padding: 0px;
+    margin-top: 45px;
+    margin-left: 0px;
+}
+
+.historia_joanna img {
+    padding: 0px;    
+    margin-left: 0px;
+}
+
+p{
+    padding: 5px;
+    font-size: 2.1vw;
+}
+.titulo_historia-Joanna, p{
+
+    text-align: left;
+}
+
+
+/* ESPÇOA DA AUTORA */
+.autora{
+    DISPLAY: FLEX;
+  justify-content: center;
+    background-color: #E4B7E5
+}
+.autora img{
+    width: 32vh;
+    height: 32vh;
+}
+
+.sobre_autora{
+    /* margin-left: 10PX; */
+}
+.sobre_autora p{
+    color: white;
+   
+}
+
+/* ESPÇOA DA AUTORA */
+}
+
+
 
