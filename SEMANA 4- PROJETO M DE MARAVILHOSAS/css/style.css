@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 body{
@@ -52,16 +53,31 @@ header{
      position: relative;
     background-size: cover;
     height: 38%;
+    background-repeat: no-repeat;
 }
 
+.header.conteudo{
+    display: flex;
+    flex-direction: column;
+}
 .header_titulo{
-   
     position: absolute;
+    font-size: 70vh;
+    width: 78%;
+    font-style: bold;
+    text-transform: uppercase;
+    font-weight: 999;
+    color: #FFFFFF;
+    bottom: 228px;
+    left: 118px;
+
+    /* position: absolute;
     font-size: 54px;
     width: 76%;
     color: white;
     left: 118px;
     bottom: 228px;
+    text-align: center; */
 }
 .header_subtitulo{
     position: absolute;
@@ -110,8 +126,11 @@ h6{
 
 /* PERFIL JOANNA */
 
+
+ 
+
 .header_joanna{
-    background-image: url(../img/image-joanna.jpg);
+    background-image: url(../img/joanna.jpg);
     position: relative;
    background-size: cover;
    height: 33vh;
@@ -187,15 +206,37 @@ p{
     margin: 30px;
 
 }
-/* PERFIL JOANNA */
+
+/* SORBE AUTORA */
+
+.autora{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E4B7E5;
+    width: 400px;
+    margin-left: 273px;
+    margin-bottom: 30px;
+}
+
+.autora img{
+     width: 300px;
+}
+
+.sobre_autora{
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
 
 
 
-
-
+/* 
 
 footer{
     background-color: #323534;
@@ -221,9 +262,55 @@ footer{
 .footer_titulos{
     margin-top: 30px;
     justify-content: center;
-    /* border: 20px solid; */
+    /* border: 20px solid; 
     text-align: center;
 }
+*/
+
+/* *FOOTER*/ 
+    .footerlogo img{
+        width: 32vh;
+        margin: 83px;
+    }
+    footer{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #323534;
+    }
+    .footer_titulos{
+        display: flex;
+        width: 25vh;
+        font-size: 18px;
+        justify-content: center;
+        flex-direction: column;
+        
+       
+    }
+
+    .footerfacebook{
+        width: 32vh;
+    }
+    .titulosfooter{
+        font-size: 18px;
+    }
+   
+    .footerrodape {
+        background-color: grey;
+   }
+   .footertituloss{
+    font-size: 18px;
+    color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    background-color: #323534;
+       
+        
+    }
+
+
 
 .conteudo_integrantes{
 
@@ -237,49 +324,109 @@ footer{
     text-align: center;
     color: purple;
 }
-/*  
-@media   (min-width: 1024px) {
-     .img_menunav, .btn_header, .conteudo_integrantes, .footer_titulos, .footerfacebook, .header_subtitulo,  footer
-    
-    {
-    display: none;
-    } 
 
-    nav{
-        width: 110%;
-        background-color:#674582;
-        height: 15%;
+
+@media ( min-width: 768px){
+
+    .header_titulo{
+        font-size: 24px;
+        width: 43%;
+        font-style: bold;
+        text-transform: uppercase;
+        font-weight: 999;
+        left: 219px;
+        bottom: 154px;
+        text-align: left;
     }
+    .header_subtitulo{
+        font-size: 15px;
+        left: 219px;
+        bottom: 102px;
+        width: 46%;
+        font-weight: 100;
+        text-align: left;
+}
 
-    .img_nav{
-        width:150px;
-    }
+.btn_header, a{
+    width: 21%;
+    left: 22%;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+     
+}
 
-   body{
-        background-color:yellow;
-    }
+
+.ctn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: unset;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
 
 
+.imagem_integrantes{
+    width: 400px;
+    margin-top: 30px;
 
-}  */
+}
+
+.imagem_integrantes img {
+      width:100px;
+    flex-direction: column;
+}
+
+h6{
+    font-size: 31px;
+}
+
+}
+
 
 
 @media ( min-width: 1024px){
    header{
-    height: 71%;
+    height: 66%;
+    background-position-y: -96px;
+   
    }
 
     .header_titulo{
-        font-size: 36px;
-        width: 59%;
-        line-height: 44px;
+        font-size: 24px;
+        width: 43%;
         font-style: bold;
         text-transform: uppercase;
-        font-weight: 980;
-        left: 208px;
-        bottom: 89px;
+        font-weight: 999;
+        left: 219px;
+        bottom: 154px;
     }
- 
+    .header_subtitulo{
+        font-size: 15px;
+        left: 219px;
+        bottom: 102px;
+        width: 46%;
+        font-weight: 100;
+        text-align: left;
+}
+
+.btn_header, a{
+    width: 21%;
+    left: 22%;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+     
+}
+
     
     nav{
          display: flex;
@@ -317,18 +464,8 @@ footer{
 
     }
     
-    .header_subtitulo{
-        font-size: 24px;
-        left: 183px;
-     bottom: 25px;
-}
 
-.btn_header{
-    width: 39%;
-    left: 24%;
-    bottom: 3px;
-    font-size: 16px;
-}
+
 
 
 .ctn{
@@ -440,6 +577,5 @@ p{
 
 /* ESPÇOA DA AUTORA */
 }
-
 
 
