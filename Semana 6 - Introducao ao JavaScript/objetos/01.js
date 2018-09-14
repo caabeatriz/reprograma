@@ -113,18 +113,30 @@ for (const prop in choicePokemon){
 
 // crie uma função construtora de um pokemon genérico
 
-function Fabrica_de_Pokemon (){
-    this.nome= nome
-    this.nome_japones = nome_japones
-    this.pode_voar= pode_voar
-    this.diga_ola = function (){
-        console.log(` Hello my name`)
-    }
-
-    this.voe = function (){
-        if (this.pode_voar) 
-        {
-             name. 
-        }
-    }
+function Pokemon(nome, nome_japones, pode_voar) {
+	this.nome = nome
+	this.nome_japones = nome_japones
+	this.pode_voar = pode_voar
+	this.diga_ola = function () {
+		console.log(`Hello, my name is ${this.nome}. And my name in Japanese is ${this.nome_japones}.`)
+	}
+	this.voe = function () {
+		if (this.pode_voar) {
+			return "É nóis que voa bruxão!"
+		} else {
+			return "I believe I can fly, but I can't..."
+		}
+	}
+	this.manda_ver = function () {
+		let acoes = [
+			"I want sleep", 
+			"I want ungry", 
+			"Ash, lets go "
+		]
+		return acoes[Math.floor(Math.random() * acoes.length)]
+	}
+	this.pergunte = function () {
+		console.log(`O que ${this.nome} vai fazer?`)
+		return this.manda_ver()
+	}
 }
