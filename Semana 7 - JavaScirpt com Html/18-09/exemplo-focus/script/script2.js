@@ -76,7 +76,13 @@ cadastroInputArea.addEventListener("change",function(changebg){
         document.querySelector(".wrapper").style.backgroundColor="pink"
     }else if (cadastroInputArea.value == "UI Designer"){
         document.querySelector(".wrapper").style.backgroundColor="orange"}
-     
+  
+        
+
+
+        if(radioitem.value === "Junior"){
+            console
+        }
 })
 
             //Some tudo do forms
