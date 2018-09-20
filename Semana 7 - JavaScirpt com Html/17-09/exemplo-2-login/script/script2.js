@@ -12,5 +12,7 @@ botao.addEventListener("click", function(event){
 
     const loginForm = document.querySelector(".login__form")
     loginForm.insertBefore(resposta, loginForm.childNodes[0])
+
+    
  
 })
