@@ -18,7 +18,7 @@ body {
 
 .tweet-composer{
     position: relative;
-    background-color: slategray;
+    background-color: #00BFFF;
     padding: 10px 20px;
 }
 
@@ -39,6 +39,7 @@ body {
     padding: 10px;
     font-size: 14px;
     resize: none;
+    
 }
 
 .tweet-composer__button {   
@@ -54,7 +55,7 @@ body {
 }
 
 .tweet-composer__button:hover{
-    background-color: #e6ecf0;
+    background-color:#0000FF;
     transition: 0.3s;
 }
 
@@ -72,6 +73,8 @@ body {
     margin: 1.3px 0;
     border-radius: 1px;
     padding: 10px 20px;
+    
+    word-break: break-all;
 }
 
 .tweets-timeline__name{
@@ -94,10 +97,12 @@ body {
 }
 
 .tweets-timeline__delete-button{
-    color: gray;
+    color: rgb(141, 10, 10);
     font-size: 13px;
     border: 0;
     background: 0 0;
     cursor: pointer;
     padding: 0;
+    border-radius: 50px;
+
 }
