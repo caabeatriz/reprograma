@@ -1,0 +1,29 @@
+.nav-primary,   .navbar-collapse{
+
+    justify-content: flex-end;
+}
+
+/* 
+tamanho do carrosel */
+.carousel-banner img {
+   height: 80vh;
+   object-fit: cover;
+}
+
+.bg-card{
+    background-color: rgba(0,0,0,.03);
+}
+
+.bg-text{
+    height: 22vh;
+}
+.espaco{
+    height: 40px;
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
